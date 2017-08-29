@@ -1,0 +1,27 @@
+.background_widget_bg {
+	position: absolute;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-color: #000;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+	left: 0px;
+	top: 0px;
+}
+
+.background_widget_bg.bg1 {
+	z-index: 9;
+}
+
+.background_widget_bg.bg2 {
+	-webkit-transition: opacity 3s ease;
+	-moz-transition: opacity 3s ease;
+	-o-transition: opacity 3s ease;
+	transition: opacity 3s ease;
+	z-index: 10;
+}
+
+.background_widget_bg.transparent {
+	opacity: 0;
+}
